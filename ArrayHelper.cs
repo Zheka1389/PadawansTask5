@@ -9,6 +9,9 @@ namespace PadawansTask5
             if (source == null)
             {
                 throw new ArgumentNullException();
+            }else if (source.Length == 0)
+            {
+                throw new ArgumentException();
             }
             else
             {
